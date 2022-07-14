@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% for package in packages %}
+
+<div>Sender: {{package.name}}</div>
+<div>Recipient: {{package.recipient}}</div>
+<div>Shipping from: {{package.origin}}</div>
+<div>Destination: {{package.destination}}</div>
+<div>Current Location: {{package.location}}</div>
+
+{% endfor %}
+{% endblock %}

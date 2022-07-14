@@ -8,8 +8,18 @@ flask = "*"
 python-dotenv = "*"
 jinja2 = "*"
 flask-wtf = "*"
+sqlalchemy = "*"
+flask-sqlalchemy = "*"
+psycopg2-binary = "*"
+wtforms = "*"
+flask-login = "*"
+alembic = "*"
+flask-migrate = "*"
 
 [dev-packages]
+pylint = "*"
+pycodestyle = "*"
+rope = "*"
 
 [requires]
 python_version = "3.9"
